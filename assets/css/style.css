@@ -66,7 +66,31 @@ main { background-color: #cccccc; border-color: #dddddd; /* height: 100%; */ }
 #Contact { /* clear: both; */ background-color: #ffffff; border-color: #dddddd; /* float : left; */ width:650px; margin: 5px; padding: 5px; }
 
 /* Portfolio */
+
+#MyWordPressSite-picture {height: 33%; width: 20%; vertical-align: top; }
+#SubArcCellWelder-picture {height: 75%; width: 33%;}
+#PGC5000-picture {height: 50%; width: 25%; }
 #PPA_Batch-picture {height: 50%; width: 50%; }
+#OlympicMan-picture {height: 33%; width: 20%; vertical-align: top; }
+#Crystals-picture { height: 33%; width: 20%; vertical-align: top; }
+#Trivia-picture { height: 33%; width: 20%; vertical-align: top; }
+#GIFTastic-picture { height: 33%; width: 20%; vertical-align: top; }
+#Spy-vs-Spy-RPS-picture { height: 33%; width: 20%; vertical-align: top; }
+#Chefs-picture { height: 33%; width: 20%; vertical-align: top; }
+#Liri-picture { height: 33%; width: 20%; vertical-align: top; }
+#Retro-Olympicman-picture { height: 33%; width: 20%; vertical-align: top; }
+#Big-Amazon-picture { height: 33%; width: 20%; vertical-align: top; }
+#Friend-Finder-picture { height: 33%; width: 20%; vertical-align: top; }
+#Movies-picture  { height: 33%; width: 20%; vertical-align: top; }
+#Burgers-picture  { height: 33%; width: 20%; vertical-align: top; }
+#Hamburgers-picture  { height: 33%; width: 20%; vertical-align: top; }
+#Newsweb-picture { height: 33%; width: 20%; vertical-align: top; }
+#Memory-picture { height: 33%; width: 20%; vertical-align: top; }
+#EMC-picture { height: 33%; width: 20%; vertical-align: top; }
+
+
+
+
 .personal {
     position: relative;
     width: 500px;

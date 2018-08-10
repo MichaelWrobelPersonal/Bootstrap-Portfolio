@@ -15,6 +15,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+        <script type="text/javascript">
+            function sendMail() {
+              var link = 'mailto:michaelrwrobel@sbcglobal.net?subject=Message from '
+                       +document.getElementById('contact-name').value
+                       +'&body='+document.getElementById('contact-message').value;
+              window.location.href = link;
+          }
+        </script>    
     </head>
     <body>
         <div class=container>
@@ -53,7 +61,7 @@
                             <label>Message</label><br>
                                 <input id="contact-message" class="form-control" type="textarea" name="message" rows="8" size="640" maxlength="2048"; /><br>
                             <!-- Submit button -->
-                            <input id="submit-button" class="form-control" type="submit" name="submit" value="submit";/>    
+                            <input onclick="sendMail(); return false;" id="submit-button" class="form-control" type="submit" name="submit" value="submit";/>    
                         </form>
                     </section>
                 </article>
