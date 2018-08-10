@@ -67,7 +67,7 @@ main { background-color: #cccccc; border-color: #dddddd; /* height: 100%; */ }
 
 /* Portfolio */
 
-#MyWordPressSite-picture {height: 33%; width: 20%; vertical-align: top; }
+#MyWordPressSite-picture {height: 20%; width: 20%; vertical-align: top; }
 #SubArcCellWelder-picture {height: 75%; width: 33%;}
 #PGC5000-picture {height: 50%; width: 25%; }
 #PPA_Batch-picture {height: 50%; width: 50%; }
